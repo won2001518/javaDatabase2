@@ -158,7 +158,7 @@ public class HoewonService {
 		
 		int res = dao.setHoewonUpdate(vo.getIdx(), choice, content);
 		if(res != 0) System.out.println("==> 회원정보 수정완료!!!");
-		else System.out.println("==> 회원정보 수정실패~~~");
+		else System.out.println("==> 회원정보 수정실패");
 	}
 	
 	// 리스트 제목 출력
